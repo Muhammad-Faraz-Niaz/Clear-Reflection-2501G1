@@ -1,7 +1,10 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 * {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+
 }
 
 #navbar {
@@ -45,7 +48,6 @@
 }
 
 #Welcome {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #023e8a;
 
 }
@@ -78,13 +80,12 @@
     color: #023e8a;
 }
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
 
 .lux-footer {
     background-color: #023e8a;
     color: #ffffff;
     padding: 60px 20px 30px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #logo {
@@ -185,39 +186,33 @@
 
 #p1 {
     font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #ffffff;
 }
 
 #p2 {
     font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(255, 249, 249);
 }
 
 #p3 {
     font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(255, 255, 255);
 }
 
 #h1 {
     font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     color: #ffffff;
 }
 
 #h2 {
     font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     color: rgb(255, 255, 255);
 }
 
 #h3 {
     font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     color: rgb(255, 255, 255);
 }
@@ -374,9 +369,7 @@ iframe {
     z-index: 2000;
 }
 
-#high {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
 
 
 #about {
@@ -396,14 +389,12 @@ iframe {
 }
 
 #aboutp {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     color: #023e8a;
 }
 
 #loo {
     font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: justify !important;
     color: #023e8a;
 }
