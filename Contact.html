@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elegant Dressing Mirrors</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+  <header data-aos="fade-down">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light  fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white fs-5" href="index.html"><img id="logo"
+            src="images/logos-removebg-preview.png" alt="">Clear Reflection</a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item px-lg-5" data-aos="zoom-in">
+              <a class="nav-link active text-white" aria-current="page" href="index.html"><i
+                  class="fa-solid fa-house"></i> Home</a>
+            </li>
+
+            <li class="nav-item dropdown" data-aos="zoom-in">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-list"></i> Categories</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/shape.html">Shop by Shapes</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-black " href="material.html">Shop by Material</a></li>
+              </ul>
+            </li>
+            <li class="nav-item px-lg-5" data-aos="zoom-in">
+              <a class="nav-link active text-white" href="Contact.html"><i class="fa-solid fa-phone"></i> Contact</a>
+            </li>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="loader" data-aos="fade-in">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
+    <section class="contact-section">
+      <div class="container" data-aos="fade-up">
+        <div class="row mb-5 text-center">
+          <div class="col" data-aos="fade-down">
+            <h1 id="get" class="fw-bold ">Get in Touch</h1>
+            <p id="we" class="">We'd love to hear from you. Reach out to us anytime!</p>
+          </div>
+        </div>
+        <div class="row g-5">
+          <div class="col-md-6" data-aos="fade-right">
+            <div class="contact-form" data-aos="flip-up">
+              <form id="contactForm">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter Your Email">
+                </div>
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input type="number" class="form-control" id="phone" placeholder="Your Phone Number">
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Write your message..."
+                    required></textarea>
+                </div>
+                <div class="d-grid">
+                  <button id="btn" type="submit" class="btn btn-outline-light">Send Message</button>
+                </div>
+              </form>
+              <div class="alert alert-success mt-3 d-none" id="successMessage">Thank you! Your message has been sent.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-left">
+            <div class="contact-info">
+              <h4 id="con">Contact Information</h4>
+              <h5 id="con"><i class="fas fa-phone-alt me-2"></i>Phone:</h5>
+              <p id="con">+92 262 116469</p>
+              <h5 id="con"><i class="fas fa-envelope me-2"></i>Email:</h5>
+              <p id="con">ClearReflection123@gmail.com</p>
+              <h5 id="con"><i class="fas fa-map-marker-alt me-2"></i>Address:</h5>
+              <p id="con"> Aptech North,Karachi</p>
+              <h5 id="con">Find us on map:</h5>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14466.244878752288!2d67.05953450176008!3d24.98103907888988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb340e584b891c3%3A0x29b2cbc198ba2dbd!2sAptech%20Computer%20Education%20North%20Karachi%20Center!5e0!3m2!1sen!2s!4v1747492979923!5m2!1sen!2s"
+                width="600" height="450" style="border:0;" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a href="https://wa.me/921234567890" class="whatsapp-button" target="_blank" data-aos="zoom-in">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </main>
+
+ <footer class="lux-footer p-4 " data-aos="fade-up">
+    <div class="lux-container d-flex flex-wrap justify-content-between">
+      <div class="lux-column brand">
+        <h2>Clear Reflection</h2>
+        <p>Redefining reflection — with style & clarity.</p>
+      </div>
+      <div class="lux-column">
+        <h3>Links</h3>
+        <ul>
+          <li><a href="/index.html" class="text-white">Home</a></li>
+          <li><a href="/material.html" class="text-white">Categories</a></li>
+          <li><a href="/Contact.html" class="text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div class="lux-column">
+        <h3>Contact</h3>
+        <p>Email: ClearReflection123@gmail.com</p>
+        <p>Phone: +92 300 1234567</p>
+      </div>
+      <div class="lux-column">
+        <h3>Follow Us</h3>
+        <div class="lux-socials">
+          <a href="#"><i class="fab fa-facebook-f text-white me-3"></i></a>
+          <a href="#"><i class="fab fa-instagram text-white me-3"></i></a>
+          <a href="#"><i class="fab fa-whatsapp text-white"></i></a>
+          <a class="mail" href="mailto:Muhammadusaidraza123@gmail.com">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="lux-bottom text-center mt-3">
+      <p>&copy; 2025 Clear Reflection. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- jQuery CDN (Add this!) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- AOS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+    window.addEventListener('load', () => {
+      document.getElementById('loader').style.display = 'none';
+      AOS.init();
+    });
+
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      document.getElementById('successMessage').classList.remove('d-none');
+      this.reset();
+    });
+ </script>
+
+<script>
+
+
+    $(document).ready(function () {
+      $('#btn').click(function (e) {
+        e.preventDefault();
+        let name = $('#name').val().trim();
+        let email = $('#email').val().trim();
+        let phone = $('#phone').val().trim();
+
+        if (name === "" || email === "" || phone === "") {
+          alert('Please fill all field first');
+        } else {
+          alert('Form submitted successfully');
+          $('#name').val("");
+          $('#email').val("");
+          $('#phone').val("");
+          
+        }
+      });
+    });
+   </script>
+</body>
+
+</html>
